@@ -1,0 +1,129 @@
+body {
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+  padding-top: 100px;
+}
+.topcontainer {
+  background-color: #E6FCF8;
+  text-align: center;
+}
+
+.profilepic {
+  margin-top: 50px;
+  width: 15%;
+}
+
+.aboutme {
+  width: 30%;
+  margin: auto;
+}
+
+hr {
+  border-style: dotted;
+  border-top: none;
+  border-width: 8px;
+  border-color: #EAF6F6;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 6%;
+}
+.skill-row{
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  line-height: 2
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.monster {
+  width: 20%;
+  float: right;
+  margin-left: 20px;
+}
+
+button {
+  background-color: #66BFBF;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  width: 175px;
+  margin: 50px;
+}
+
+button:hover{
+  cursor: pointer;
+  color: #66bfbf;
+  background-color: white;
+  border: #66bfbf solid 3px;
+  width: 173px;
+  padding: 12px;
+  margin: 47px;
+}
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.socials {
+  width: 50px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.socials:hover {
+  cursor: pointer;
+}
+
+.socialsflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding-bottom:20px;
+}
